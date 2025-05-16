@@ -4,7 +4,7 @@ import { formatter } from "@/lib/utils";
 import { useEffect, useState } from "react";
 
 interface CurrencyProps {
-    value?: string | number | boolean;
+    value?: string | number;
 }
 
 const Currency: React.FC<CurrencyProps> = ({
